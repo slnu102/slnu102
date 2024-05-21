@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,intial-scale=1.0">
+	<title>Developer Profile</title>
+ <style>
+ *{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+ }
+ body, html {
+ height:100%;
+ }
+ header{
+ display:flex;
+ justify-content:start;
+ align-items:center;
+ background:#FFCC80;
+ height:110px;
+ width:100%;
+ box-shadow:2px 2px 3px gray;
+ position:relative;
+ z-index:1;
+ 
+ }
+ 
+ #profilePicture{
+ 	width:83px;
+    height:80px;
+    } 
+    
+   figure{
+   text-align:center;
+   margin-left:30px;
+   }
+    
+ #container{
+ display: flex;
+ background:#E0E0E0;
+ height:calc(100% - 100px);
+ }
+ aside{
+ flex: 0 0 20%;
+ background:#98CAF9;
+ padding:20px;
+ }
+ 
+ nav{
+ 
+ flex: 0 0 17%;
+ justify-content:space-around;
+ align-items:start;
+ font-family:verdana;
+ background:#98CAF9;
+ padding:20px;
+  
+   }
+   
+   nav span{
+   display: flex;
+   justify-content: start;
+   align-items:center;
+   }
+   
+   nav a{
+   	padding: 20px 0px;
+    color:#000;
+    font-size:14px;
+    font-weight:300;
+    }
+     nav i{
+     font-size:40px;
+     margin:10px;
+     
+     
+     }
+   
+ main{
+ flex:1;
+ background:#fff;
+ padding:20px;
+ height:100%;
+ }
+ 
+ main h2{
+ 	padding:20px 0px;
+    
+    }
+ footer{
+ display:flex;
+ justify-content:space-around;
+ align-items:center;
+ background: #eee;
+ height:50px;
+ 
+ }
+ #logo{
+ padding:15px;
+ }
+ 
+ ul{ 
+ 
+ 	list-style:none;
+    margin-left: -18px;
+ 
+ } 
+ 
+ ul li {
+ margin:15px;
+ }
+  
+  blockquote{
+  	background:#eee;
+    padding:10px;
+    }
+ 
+ </style>
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+ 
+ 
+</head>
+<body>
+ <header>
+ <figure>
+ 	<img id="profilePicture"
+    src="https://raw.githubsercontent.com/finteger/placeholderimage/main/placeholder.png">
+ 	<figcaption>
+    Todd Nash
+    </figcaption>
+ 
+ </figure>
+ <h1 id="logo">Developer Profile</h1>
+ </header>
+ <div id="container">
+ <nav>
+ <ul>
+ <li><span><i class="fa-brands fa-github"></i><a href="#">GitHub</a></span></li>
+ <li><span><i class="fa-brands fa-linkedin"></i><a href="#">LinkedIn</a></span></li>
+ <li><span><i class="fa-solid fa-location-dot"></i><a href="#">Interests</a></span></li>
+ 
+ </ul>
+ </nav>
+ <main>
+ 	<h2>About Me</h2>
+    
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+ 
+ </main>
+ <aside>
+ 	<blockquote>
+    <q>
+    	Todd worked great in our development team. Highly recommend.
+    
+    </q>
+    <br>
+    <br> <em>Google engineer</em>
+    -
+    
+    </blockquote>
+    <br>
+    <blockquote>
+    <q>
+    	Helped develop our UI/UX for the platform...
+    
+    </q>
+    <br>
+    <br> <em>TechMogal.com</em>
+    -
+    
+    </blockquote>
+ 
+ </aside>
+ </div>
+ 
+ <footer>
+	<div>Phone: <a href="tel:+15555555555">555-555-5555</a></div>
+    
+    <div>Email: <a href="mailto:MyExampleEmail@gmail.com">MyExampleEmail@gmail.com</a></div>
+ </footer>
+</body>
+</html>
